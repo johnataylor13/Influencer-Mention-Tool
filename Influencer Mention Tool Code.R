@@ -34,14 +34,6 @@ quotes <- as.data.frame(quotes)
 
 #Twitter
 
-  #Authentication - Twitter API
-  options(httr_oauth_cache=T)
-  consumer_key <- "3LVrAMvZtCUFtAdnd897lYLK6"
-  consumer_secret <- "JsnW8u2k7v7iRDuMIFNrQ7bpbQ8csG91zmiYT1U6D7MfDav8Rz"
-  access_key1 <-"923951852164734976-5ScAiVtA4Wa9jsN7yltLnt2ZqhNpgGr"
-  access_secret1 <- "Hk19C9HcPS3ha55r5GqcTFSqCyTzfdrAu9WSB24Xehr1q"
-  setup_twitter_oauth(consumer_key, consumer_secret, access_token = access_key1, access_secret = access_secret1)
-  options(tz="CST6CDT")
 
 #To be converted to box
 search_words <- read.csv("/Users/johntaylor/Box Sync/Analytics/NFL/Influencer Mention Tool/Data/NFL Elite Terms.csv")
